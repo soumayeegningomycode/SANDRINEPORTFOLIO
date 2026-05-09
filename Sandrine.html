@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sandrine Soumaye — Développeuse Web & Mobile</title>
+<meta name="description" content="Portfolio de Sandrine Soumaye, développeuse web et mobile." />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  .serif { font-family: 'Instrument Serif', serif; }
+  .hero-bg {
+    background-image: linear-gradient(135deg, rgba(76, 29, 149, 0.85), rgba(124, 58, 237, 0.7)), url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+</head>
+<body class="bg-white">
+ <section class="hero-bg min-h-screen flex items-center justify-center px-6 py-16">
+
+  <div class="max-w-6xl w-full flex flex-col md:flex-row items-center justify-center gap-10 text-white">
+
+    <!-- TEXTE -->
+    <div class="text-center md:text-left max-w-xl">
+      <p class="uppercase tracking-[0.3em] text-sm text-purple-200 mb-6">
+        Portfolio
+      </p>
+
+      <h1 class="serif text-6xl md:text-7xl leading-[1.05] mb-6">
+        Sandrine <span class="italic text-purple-200">Soumaye</span>
+      </h1>
+
+      <p class="text-lg md:text-xl text-purple-100/90 mb-10">
+        Développeuse web & mobile — je conçois des expériences numériques élégantes, performantes et sur mesure.
+      </p>
+
+      <a href="#projets"
+         onclick="event.preventDefault(); alert('Bientôt : mes projets !');"
+         class="inline-block bg-white text-purple-700 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-purple-50 hover:scale-105 transition-all duration-300">
+        Voir mes projets
+      </a>
+    </div>
+
+    <!-- IMAGE -->
+    <div class="flex justify-center">
+      <div class="relative">
+        <div class="absolute inset-0 rounded-full bg-purple-300/30 blur-3xl scale-110"></div>
+
+        <img src="./assets/WhatsApp Image 2026-05-09 at 21.39.50.jpeg"
+             alt="Sandrine Soumaye"
+             class="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-white/80 shadow-2xl" />
+      </div>
+    </div>
+
+  </div>
+
+</section>
+</body>
+</html>
